@@ -1,0 +1,82 @@
+html,body{
+	height: 99%;
+	width: 99%;
+  background-color: #9393cc;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-color: #383856;
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #9393cc;
+	box-shadow: 1px 3px 30px 1px #d8d8fd;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #9393cc ;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 120px;
+  color: ghostwhite;
+}
+h1{
+	font-size: 0.7em;
+}
+
+#logo{
+	width: 100px;
+	position: fixed;
+	top: 27px;
+	right: 55px;
+}
+.container{
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-color: #383856;
+  border: 3px solid #9393cc;
+  box-shadow: 1px 3px 30px 1px #d8d8fd;
+  background-image: url(back.jpg);
+  background-size: 1850px;
+
+}
+.wave{
+	border: #d8d8fd 1px solid;
+	color: whitesmoke;
+	text-align: center;
+	background-color: #9393cc;
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#instructions{
+	border:#d8d8fd 1px solid;
+	background-image:repeating-linear-gradient(#9393cc, #c1c1ec);
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
+li{
+  font-size: 20px;
+}
+h5{
+  float: right;
+}
+#easy{
+  background-image:repeating-linear-gradient(#9393cc, #93ccb7);
+}
+#medium{
+  background-image:repeating-linear-gradient(#9393cc, #cbcc93);
+}
+#hard{
+  background-image:repeating-linear-gradient(#9393cc, #cc9393);
+}
